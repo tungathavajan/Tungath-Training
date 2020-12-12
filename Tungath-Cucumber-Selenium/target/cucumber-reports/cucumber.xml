@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.110827">
+<testcase classname="Assignment Feature" name="Customer Register sucessfully and verify customer is able to send the email" time="23.110827">
+<system-out><![CDATA[Given customer loads the URL in browser.....................................passed
+When customer clicks on signup button.......................................passed
+And enters "sankara", "mahadeva", "sankara.maha@gmail.com", "sankara.maha" and "passw0rd".passed
+And clicks on register button...............................................passed
+Then validate the message...................................................passed
+Then clicks on Home.........................................................passed
+And Validate "sankara.maha@gmail.com" email from profile section............passed
+And create email and send to "naveen".......................................passed
+And Validate the message "The message has been sent to naveen naveen (naveen)".passed
+]]></system-out>
+</testcase>
+</testsuite>
